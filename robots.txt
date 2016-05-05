@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /img/
+Disallow: /README.md
+
+Sitemap: http://www.heathgarvey.com.au/first-website/sitemap.xml
