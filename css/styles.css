@@ -15,8 +15,8 @@ h6 {
     margin: 10px;
     padding-top: 20px;
     text-transform: uppercase;
-    font-family:'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 900;
     text-align: center;
     letter-spacing: 1px;
     color: white;
@@ -24,12 +24,14 @@ h6 {
 }
 
 p {
-    font-family: 'Garamond', 'Caslon', 'Minion', serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     margin: 10px;
     padding-bottom: 20px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
     color: white;
+    font-weight: 10;
 }
 
 a {
@@ -39,15 +41,15 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: grey;
+  color: #808080;
 }
 
 .navbar {
-    background-color: white;
-    margin: 0;
-    border: 0;
-    font-size: 16px;
-    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 /*These apply to all page headings*/
@@ -55,7 +57,6 @@ a:hover {
   padding-top: 40px;
   padding-bottom: 30px;
 }
-
 
 /*This is the home section*/
 #intro {
@@ -70,7 +71,7 @@ a:hover {
   	background: linear-gradient(45deg, #FF8E8E, #F5A94C, #E0C15B);
 }
 
-.intro-body {
+#intro-body {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -78,12 +79,12 @@ a:hover {
     overflow: visible;
 }
 
-.intro-body h1 {
-    font-size: 8vw;
+#intro-body h1 {
+    font-size: 75px;
 }
 
-.intro-body p {
-    font-size: 3.2vw;
+#intro-body p {
+    font-size: 30px;
 }
 
 /*This is the about section*/
@@ -105,7 +106,7 @@ a:hover {
 }
 
 #about-description {
-  padding-left: 60px;
+  padding-left: 50px;
 }
 
 /*This is the portfolio section*/
@@ -121,6 +122,10 @@ a:hover {
 #portfolio h3 {
   text-align: left;
   text-decoration: none;
+}
+
+#portfolio p {
+  font-weight: 10;
 }
 
 /*This is the contact section*/
@@ -142,8 +147,8 @@ a:hover {
 
 /*This is the contact form*/
 .feedback-input {
-	color: #3c3c3c;
-	font-family:'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+	color: #808080;
+	font-family:'Roboto', Helvetica, Arial, sans-serif;
   font-weight: 500;
 	font-size: 18px;
 	border-radius: 0;
@@ -175,14 +180,14 @@ a:hover {
 
 /* Icons ---------------------------------- */
 #name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(http://www.heathgarvey.com.au/first-website/img/name.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(http://www.heathgarvey.com.au/first-website/img/name.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
   background-position: 11px 8px;
@@ -190,21 +195,21 @@ a:hover {
 }
 
 #email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(http://www.heathgarvey.com.au/first-website/img/email.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(http://www.heathgarvey.com.au/first-website/img/email.svg);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-image: url(http://www.heathgarvey.com.au/first-website/img/comment.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
@@ -223,7 +228,7 @@ input:focus, textarea:focus {
 }
 
 #button-blue{
-	font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 	float:left;
 	width: 100%;
 	border: #fbfbfb solid 4px;
@@ -277,9 +282,10 @@ input:focus, textarea:focus {
 
 #footer p {
   padding-bottom: 5px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   color: #101010;
   margin: 0px;
-  font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
